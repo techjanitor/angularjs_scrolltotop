@@ -5,4 +5,4 @@ A directive for a scroll to top button like Tumblr. Uses Font Awesome for the ic
 
 Just add this to your template pages:
 
-<top-box></top-box>
+    <top-box></top-box>
