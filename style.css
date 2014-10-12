@@ -1,0 +1,20 @@
+.scrollToTop {
+-webkit-transition: opacity 0.5s;
+-moz-transition: opacity 0.5s;
+-o-transition: opacity 0.5s;
+transition: opacity 0.5s;
+
+position: fixed;
+top: 5px;
+right: 5px;
+width: 45px;
+height: 45px;
+opacity: 0;
+visibility: hidden;
+z-index: 99;
+}
+
+.scrollToTop.toTopActive {
+opacity: 0.8;
+visibility: visible;
+}
