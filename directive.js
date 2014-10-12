@@ -3,7 +3,7 @@ app.directive('topBox', [
     return {
       restrict: 'E',
       scope: {},
-      templateUrl: 'pages/totop.html',
+      templateUrl: 'totop.html',
       controller: function($scope, $window) {
         angular.element($window).bind("scroll", function() {
           $scope.showbox = false
