@@ -8,13 +8,13 @@ app.directive('topBox', [
         angular.element($window).bind("scroll", function() {
           $scope.showbox = false
 
-          if (window.pageYOffset > 100) {
+          if (window.pageYOffset > 300) {
             $scope.showbox = true
           } else {
             $scope.showbox = false
           }
 
-          $scope.$apply();
+          $scope.$applyAsync();
 
         });
 
